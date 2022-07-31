@@ -10,6 +10,7 @@ html{
 body{
     background: #080808;
     color: white;
+
 }
 #header{
     width: 100%;
@@ -71,7 +72,10 @@ nav ul li a:hover::after{
 #about{
  padding: 80px 0;
  color: #ababab;
+ font-size: 20px;
 }
+ 
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -96,6 +100,7 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    
 }
 .tab-links{
     margin-right: 50px;
@@ -123,7 +128,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #00c5f1;
-    font-size: 14px;
+    font-size: 22px;
 }
 .tab-contents{
     display: none;
