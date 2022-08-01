@@ -21,6 +21,7 @@ body{
 }
 .container{
     padding: 10px 10%;
+
 }
 
 nav{
@@ -254,6 +255,23 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 
 }
+.btn3{
+    display: block;
+    margin: 7px;
+    margin-left: 200px;
+    width: fit-content;
+    border:1px solid #007b97;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+
+
+}
+.btn3:hover{
+    background: #0096b8;
+}
 .btn:hover{
     background: #00c5f1;
 }
@@ -314,6 +332,9 @@ form input, form textarea{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+p{
+    font-size: 16px;
 }
 .copyright{
     width: 100%;
@@ -400,5 +421,14 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
-
-
+.btn3{
+    display: block;
+    margin: 7px;
+    /* margin-left: 153px; */
+    width: fit-content;
+    border:1px solid #007b97;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
